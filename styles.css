@@ -5,7 +5,6 @@
     --laranja-claro: #FF862A;
     --preto: #000000;
     --branco: #FFFFFF;
-
 }
 
 body {
@@ -169,7 +168,34 @@ h2 {
 .apresenta-lista{
     display: none;
 }
-.alto-contraste{
-    backgroud-color:  var(--preto)
+
+.alto-contraste {
+    background-color: var(--preto);
     color: var(--branco);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.alto-contraste .nav-link {
+    color: var(--laranja-claro);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary {
+    background-color: var(--laranja-claro);
+    color: var(--preto);
+}
+
+.alto-contraste #tropicalia {
+    background: none;
+}
+
+.alto-contraste #galeria {
+    background-color: var(--preto);
 }
